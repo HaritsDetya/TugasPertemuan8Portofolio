@@ -32,9 +32,16 @@ class Pertemuan9Controller extends Controller
             'password' => Hash::make($request->password)
         ]);
 
+        $content =[
+            'subject'  => $request->name,
+            'body' => $request->email
+        ];
+        Mail::to($request->email)->send(new SendEmail($content));
+
         $credentials = $request->only('email', 'password');
         Auth::attempt($credentials);
         $request->session()->regenerate();
+
         return redirect()->route('dashboard')
         ->withSuccess('You have successfully registered & logged in!');
     }

@@ -1,33 +1,58 @@
+.home-child,
+.home-inner,
+.home-item {
+  position: absolute;
+  top: 152px;
+  left: -235px;
+  border-radius: 50%;
+  background-color: var(--color-teal-200);
+  filter: blur(400px);
+  width: 378px;
+  height: 378px;
+}
+.home-inner,
+.home-item {
+  top: 648px;
+  left: 1731px;
+}
+.home-inner {
+  top: 2223px;
+  left: -216px;
+}
 .get-in-touch-child {
   position: absolute;
+  width: 100%;
   top: 0;
+  right: 0;
   left: 0;
   border-radius: var(--br-3xs);
-  width: 400px;
   height: 90px;
 }
 .get-in-touch1 {
   position: absolute;
+  width: calc(100% - 77.9px);
   top: 16px;
-  left: calc(50% - 170px);
+  left: 38.9px;
   font-weight: 600;
   display: flex;
   align-items: center;
-  width: 340px;
 }
 .get-in-touch {
   position: absolute;
+  width: calc(100% - 148px);
   top: 0;
+  right: 148px;
   left: 0;
-  width: 400px;
   height: 90px;
   text-align: left;
   font-size: var(--font-size-45xl);
 }
 .haritsirawan2118gmailcom {
   position: absolute;
+  width: 100%;
   top: 43px;
   left: 0;
+  display: inline-block;
 }
 .email3,
 .email4 {
@@ -35,19 +60,22 @@
   top: 0;
 }
 .email4 {
+  width: calc(100% - 450.4px);
   left: 0;
   color: var(--color-silver);
+  display: inline-block;
 }
 .email3 {
-  left: 85px;
-  width: 429px;
+  width: calc(100% - 110.4px);
+  right: 0;
+  left: 110.4px;
   height: 76px;
 }
 .vector-icon {
   height: 42.11%;
-  width: 7.78%;
+  width: calc(100% - 615.4px);
   top: 28.95%;
-  right: 92.22%;
+  right: 615.4px;
   bottom: 28.95%;
   max-width: 100%;
   overflow: hidden;
@@ -61,59 +89,68 @@
   left: 0;
 }
 .email2 {
+  width: 100%;
   top: 256px;
-  width: 514px;
+  right: 0;
   height: 76px;
 }
 .div,
 .phone2 {
+  display: inline-block;
+}
+.phone2 {
+  width: calc(100% - 202.6px);
   top: 0;
 }
 .div {
+  width: 100%;
   top: 43px;
   color: var(--color-white);
 }
 .phone1,
 .vector-icon1 {
   position: absolute;
+  width: calc(100% - 110.3px);
   top: 0;
-  left: 85px;
-  width: 247px;
+  right: -0.1px;
+  left: 110.4px;
   height: 76px;
 }
 .vector-icon1 {
   height: 56.18%;
-  width: 12.95%;
+  width: calc(100% - 376.1px);
   top: 21.71%;
-  right: 87.5%;
+  right: 377.6px;
   bottom: 22.11%;
-  left: -0.45%;
+  left: -1.5px;
   max-width: 100%;
   overflow: hidden;
   max-height: 100%;
 }
 .phone {
   position: absolute;
+  width: calc(100% - 236.3px);
   top: 150px;
+  right: 236.3px;
   left: 0;
-  width: 332px;
   height: 76px;
   color: var(--color-silver);
 }
 .bagian-4 {
   position: absolute;
-  top: 2637px;
-  left: 119px;
-  width: 514px;
+  width: calc(100% - 1252.7px);
+  top: 2927px;
+  right: 1128px;
+  left: 124.7px;
   height: 332px;
 }
 .graduated-from-jetis {
   position: absolute;
+  width: 100%;
   top: 64px;
   left: 0;
   line-height: 173.9%;
   display: inline-block;
-  width: 692px;
   height: 254px;
 }
 .jetis-public-high {
@@ -123,8 +160,10 @@
 }
 .jetis-public-high-school-parent {
   position: absolute;
+  width: calc(100% - 407.2px);
   top: 0;
-  left: 1px;
+  right: 405.8px;
+  left: 1.4px;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -132,15 +171,17 @@
   gap: var(--gap-lg);
   color: var(--color-teal-100);
 }
-.high-school,
-.i-started-my {
+.high-school {
   position: absolute;
+  width: calc(100% - 770.8px);
   top: 554px;
-  left: 562px;
-  width: 692px;
+  right: 0;
+  left: 770.8px;
   height: 318px;
 }
 .i-started-my {
+  position: absolute;
+  width: 100%;
   top: 63px;
   left: 0;
   line-height: 173.9%;
@@ -155,7 +196,9 @@
 }
 .university-of-gadjah-mada-parent {
   position: absolute;
+  width: calc(100% - 360.2px);
   top: 0;
+  right: 360.2px;
   left: 0;
   display: flex;
   flex-direction: row;
@@ -168,34 +211,37 @@
 .bagian-3-child,
 .university {
   position: absolute;
+  width: calc(100% - 770.8px);
   top: 144px;
+  right: 770.8px;
   left: 0;
-  width: 692px;
   height: 360px;
 }
 .bagian-3-child {
+  width: calc(100% - 1308.5px);
   top: 89px;
+  right: 1308.5px;
   background-color: var(--color-teal-100);
-  width: 300px;
   height: 5px;
 }
 .my-educational-history {
   position: absolute;
+  width: calc(100% - 761.2px);
   top: 0;
-  left: calc(50% - 627px);
+  left: 0;
   font-size: var(--font-size-45xl);
   font-weight: 600;
   color: var(--color-white);
   text-align: left;
   display: flex;
   align-items: center;
-  width: 699px;
 }
 .bagian-3 {
   position: absolute;
-  top: 1705px;
-  left: 93px;
-  width: 1254px;
+  width: calc(100% - 200px);
+  top: 1905px;
+  right: 100px;
+  left: 100px;
   height: 872px;
   color: var(--color-silver);
 }
@@ -218,27 +264,13 @@
 }
 .bagian-2 {
   position: absolute;
-  top: 1126px;
-  left: 170px;
+  top: 1186px;
+  left: calc(50% - 543px);
   width: 1100px;
   height: 379px;
+  overflow: hidden;
   text-align: center;
   font-size: var(--font-size-45xl);
-}
-.bagian-1-child,
-.bagian-1-item {
-  position: absolute;
-  top: 0;
-  left: 0;
-  border-radius: 50%;
-  background-color: var(--color-teal-200);
-  filter: blur(400px);
-  width: 378px;
-  height: 378px;
-}
-.bagian-1-item {
-  top: 496px;
-  left: 1498px;
 }
 .muhammad-harits-detya,
 .software-engineer {
@@ -246,13 +278,13 @@
   font-weight: 500;
   display: flex;
   align-items: center;
-  width: 480px;
+  width: 637px;
 }
 .muhammad-harits-detya {
-  font-size: 70px;
+  font-size: var(--font-size-51xl);
   font-weight: 600;
   color: var(--color-white);
-  width: 678px;
+  width: 900px;
 }
 .content-child {
   position: relative;
@@ -266,13 +298,14 @@
   line-height: 173.9%;
   text-align: justify;
   display: inline-block;
-  width: 678px;
+  width: 900px;
 }
 .content {
   position: absolute;
-  top: 98px;
-  left: 335px;
-  width: 678px;
+  width: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
   height: 419px;
   display: flex;
   flex-direction: column;
@@ -280,140 +313,160 @@
   justify-content: flex-start;
   gap: var(--gap-11xl);
 }
-.find-me-child,
 .instagram-icon,
 .linkedln-icon,
 .wa-icon {
   position: absolute;
-  top: 11px;
-  left: 249px;
-  width: 54.5px;
-  height: 54.5px;
+  width: calc(100% - 470.9px);
+  top: 6px;
+  right: 160.9px;
+  left: 310px;
+  max-width: 100%;
+  overflow: hidden;
+  height: 70px;
 }
-.find-me-child,
 .instagram-icon,
 .linkedln-icon {
-  left: 321px;
+  right: 80.5px;
+  left: 390.4px;
 }
-.find-me-child,
 .linkedln-icon {
-  left: 393px;
+  right: 0;
+  left: 470.9px;
 }
 .find-me-child {
+  position: absolute;
+  width: calc(100% + 3px);
   top: -1.5px;
+  right: -1.5px;
   left: -1.5px;
-  border-radius: 5px;
-  background-color: transparent;
+  border-radius: var(--br-8xs);
+  background-color: var(--color-teal-300);
   border: 3px solid var(--color-teal-100);
   box-sizing: border-box;
-  width: 203px;
-  height: 77.1px;
+  height: 85.8px;
 }
 .find-me-on {
   position: absolute;
-  top: 13.8px;
-  left: 17.2px;
+  width: calc(100% - 38.6px);
+  top: 15.4px;
+  left: 19.3px;
   font-weight: 500;
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 165.5px;
-  height: 48.3px;
+  height: 53.9px;
 }
-.bagian-1,
 .find-me,
 .find-me1 {
   position: absolute;
+  width: calc(100% - 317.4px);
   top: 0;
+  right: 317.4px;
   left: 0;
-  width: 200px;
-  height: 74.1px;
+  height: 82.8px;
 }
-.bagian-1,
 .find-me {
-  top: 648px;
-  left: 335px;
-  width: 447.5px;
+  width: calc(100% - 359.1px);
+  top: 550px;
+  right: 359.1px;
   text-align: center;
   font-size: var(--font-size-15xl);
   color: var(--color-white);
 }
 .bagian-1 {
-  top: 152px;
-  left: -235px;
-  width: 1876px;
-  height: 874px;
+  width: calc(100% - 1020px);
+  top: 250px;
+  right: 920px;
+  left: 100px;
+  height: 632.8px;
   text-align: left;
   font-size: var(--font-size-21xl);
   color: var(--color-silver);
 }
-.dashboard-child {
+.about,
+.bagian-1,
+.harits2 {
   position: absolute;
-  top: 0;
-  left: 0;
-  background-color: var(--color-darkslategray);
-  width: 1440px;
-  height: 96px;
 }
-.harits1 {
-  position: absolute;
-  top: 33px;
-  left: 92px;
-  font-size: var(--font-size-15xl);
+.harits2 {
+  top: 32.5px;
+  left: 80px;
   line-height: 31px;
 }
+.about {
+  top: 0;
+  left: 0;
+  height: 96px;
+}
 .about,
-.contact,
 .skills,
 .studies {
-  position: absolute;
-  top: 0;
-  left: 366px;
+  width: 19.93%;
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 177px;
+}
+.skills {
+  position: absolute;
+  top: 0;
+  left: 26.69%;
   height: 96px;
 }
-.contact,
-.skills,
 .studies {
-  left: 543px;
+  left: 53.38%;
 }
 .contact,
+.dashboard3,
 .studies {
-  left: 720px;
+  position: absolute;
+  top: 0;
+  height: 96px;
 }
 .contact {
-  left: 897px;
+  width: 19.93%;
+  left: 80.07%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.dashboard3 {
+  width: 46.25%;
+  right: 26.88%;
+  left: 26.88%;
+  font-size: var(--font-size-7xl);
 }
 .group-icon {
   position: absolute;
   height: 44.79%;
-  width: 2.99%;
+  width: 2.24%;
   top: 27.6%;
-  right: 5.45%;
+  right: 4.09%;
   bottom: 27.6%;
-  left: 91.56%;
+  left: 93.67%;
   max-width: 100%;
   overflow: hidden;
   max-height: 100%;
 }
-.dashboard1 {
+.dashboard2,
+.home {
+  width: 100%;
+  overflow: hidden;
+}
+.dashboard2 {
   position: absolute;
   top: 0;
+  right: 0;
   left: 0;
-  width: 1440px;
+  background-color: var(--color-darkslategray);
   height: 96px;
   text-align: center;
-  font-size: var(--font-size-7xl);
+  font-size: var(--font-size-15xl);
 }
 .home {
   position: relative;
   background-color: var(--color-gray-200);
-  width: 100%;
-  height: 3072px;
-  overflow: hidden;
+  height: 3600px;
   text-align: justify;
   font-size: var(--font-size-17xl);
   color: var(--color-white);

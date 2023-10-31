@@ -1,8 +1,4 @@
-.btn-primary{
-  background-color: var(--color-teal-100);
-}
-.button-register-child,
-.form-register-child {
+.frame1 {
   position: absolute;
   top: 50px;
   left: 0;
@@ -10,15 +6,9 @@
   background-color: var(--color-gray-100);
   width: 1000px;
   height: 730px;
+  overflow: hidden;
 }
-.button-register-child {
-  top: 0;
-  border-radius: var(--br-3xs);
-  background-color: var(--color-teal-100);
-  width: 153px;
-  height: 56px;
-}
-.register1 {
+.register3 {
   position: absolute;
   top: 14px;
   left: 20px;
@@ -30,66 +20,54 @@
 .button-register {
   position: absolute;
   top: 670px;
-  left: 424px;
+  left: 325px;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-teal-100);
   width: 153px;
   height: 56px;
   text-align: center;
   font-size: var(--font-size-11xl);
 }
-.username-child,
-.username1 {
+.confirm-password1 {
   position: absolute;
   top: 0;
-  height: 70px;
-}
-.username-child {
-  left: 0;
-  border-radius: var(--br-3xs);
-  background-color: var(--color-gray-200);
-  width: 802px;
-}
-.username1 {
   left: 37px;
   font-weight: 500;
   display: flex;
   align-items: center;
   width: 200px;
-}
-.confirm-password,
-.email,
-.password,
-.register-child,
-.username {
-  position: absolute;
-  top: 170px;
-  left: 99px;
-  width: 802px;
   height: 70px;
 }
+.form-control2,
 .confirm-password,
 .email,
-.password,
-.register-child {
-  top: 290px;
+.password2,
+.username2 {
+  position: absolute;
+  top: 530px;
+  left: 0;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-gray-200);
+  width: 802px;
+  height: 70px;
+  padding-left: 30px;
+  border: none;
+  color: white;
+  overflow: hidden;
 }
-.confirm-password,
-.password,
-.register-child {
+.email,
+.password2,
+.username2 {
   top: 410px;
 }
-.confirm-password,
-.register-child {
-  top: 530px;
+.email,
+.username2 {
+  top: 290px;
 }
-.register-child {
-  top: 0;
-  left: 0;
-  border-radius: var(--br-11xl);
-  background-color: var(--color-gray-200);
-  width: 400px;
-  height: 100px;
+.username2 {
+  top: 170px;
 }
-.register3 {
+.register5 {
   position: absolute;
   top: 2px;
   left: 111px;
@@ -100,23 +78,34 @@
   width: 177px;
   height: 96px;
 }
-.register2 {
+.frame2,
+.register4 {
   position: absolute;
   top: 0;
-  left: 300px;
+}
+.register4 {
+  left: 201px;
+  border-radius: var(--br-11xl);
+  background-color: var(--color-gray-200);
   width: 400px;
   height: 100px;
   text-align: center;
   font-size: var(--font-size-21xl);
 }
+.frame2 {
+  left: 99px;
+  width: 802px;
+  height: 726px;
+  overflow: hidden;
+}
 .form-register {
   position: absolute;
-  top: 122px;
-  left: 220px;
+  top: calc(50% - 390px);
+  left: calc(50% - 500px);
   width: 1000px;
   height: 780px;
 }
-.harits {
+.harits1 {
   position: absolute;
   margin: 0 !important;
   top: 33px;
@@ -125,9 +114,17 @@
   line-height: 31px;
   z-index: 0;
 }
-.register4 {
+.dashboard1,
+.login5,
+.register6 {
+  position: absolute;
+  top: 0;
+  display: flex;
+  align-items: center;
+}
+.register6 {
   margin: 0 !important;
-  left: 1072px;
+  right: 191px;
   font-weight: 500;
   justify-content: center;
   width: 177px;
@@ -135,37 +132,32 @@
   flex-shrink: 0;
   z-index: 1;
 }
-.dashboard,
-.login,
-.register4 {
-  position: absolute;
-  top: 0;
-  display: flex;
-  align-items: center;
+.dashboard1,
+.login5 {
+  right: 0;
 }
-.login {
+.login5 {
   margin: 0 !important;
-  left: 1263px;
   justify-content: center;
   width: 177px;
   height: 96px;
   flex-shrink: 0;
   z-index: 2;
 }
-.dashboard {
+.dashboard1 {
+  width: 100%;
   left: 0;
   background-color: var(--color-darkslategray);
-  width: 1440px;
   flex-direction: row;
   justify-content: space-between;
   text-align: center;
   font-size: var(--font-size-7xl);
 }
-.register {
+.register2 {
   position: relative;
   background-color: var(--color-gray-200);
   width: 100%;
-  height: 1024px;
+  height: 1200px;
   overflow: hidden;
   text-align: left;
   font-size: var(--font-size-5xl);

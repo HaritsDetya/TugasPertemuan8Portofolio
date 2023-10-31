@@ -1,81 +1,67 @@
-.btn-primary{
-  background-color: var(--color-teal-100);
-}
-.button-login-child,
-.form-login-child {
+.frame,
+.login2 {
   position: absolute;
+}
+.frame {
   top: 60px;
   left: 0;
   border-radius: var(--br-xl);
   background-color: var(--color-gray-100);
   width: 1000px;
   height: 490px;
-}
-.button-login-child {
-  top: 0;
-  border-radius: var(--br-3xs);
-  background-color: var(--color-teal-100);
-  width: 153px;
-  height: 56px;
+  overflow: hidden;
 }
 .login2 {
-  position: absolute;
   top: 14px;
   left: 20px;
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: var(--color-teal-100);
+  border: none;
+  color: white;
   width: 113.8px;
 }
 .button-login {
   position: absolute;
   top: 430px;
-  left: 424px;
+  left: calc(50% - 76px);
+  border-radius: var(--br-3xs);
+  background-color: var(--color-teal-100);
   width: 153px;
   height: 56px;
+  overflow: hidden;
   font-size: var(--font-size-11xl);
 }
-.password-item,
-.password3 {
+.password1 {
   position: absolute;
   top: 0;
-  height: 70px;
-}
-.password-item {
-  left: 0;
-  border-radius: var(--br-3xs);
-  background-color: var(--color-gray-200);
-  width: 802px;
-}
-.password3 {
   left: 37px;
   font-weight: 500;
   display: flex;
   align-items: center;
   width: 200px;
+  height: 70px;
 }
-.password2,
-.username2 {
+.form-control1,
+.password,
+.username {
   position: absolute;
   top: 290px;
-  left: 99px;
+  left: 0;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-gray-200);
+  border: none;
+  color: white;
   width: 802px;
   height: 70px;
+  overflow: hidden;
   text-align: left;
 }
-.username2 {
+.username {
   top: 170px;
 }
-.login-child {
-  position: absolute;
-  top: 0;
-  left: 0;
-  border-radius: var(--br-11xl);
-  background-color: var(--color-gray-200);
-  width: 400px;
-  height: 100px;
-}
-.register5 {
+.register {
   position: absolute;
   top: 2px;
   left: 111px;
@@ -87,21 +73,33 @@
   height: 96px;
 }
 .login3 {
-  position: absolute;
   top: 0;
-  left: 300px;
+  left: 201px;
+  border-radius: var(--br-11xl);
+  background-color: var(--color-gray-200);
   width: 400px;
   height: 100px;
   font-size: var(--font-size-21xl);
 }
-.form-login {
+.form-login,
+.login1,
+.login3 {
   position: absolute;
-  top: 237px;
-  left: 220px;
-  width: 1000px;
-  height: 550px;
+  overflow: hidden;
 }
-.harits2 {
+.login1 {
+  top: 0;
+  left: 99px;
+  width: 802px;
+  height: 486px;
+}
+.form-login {
+  top: calc(50% - 273px);
+  left: calc(50% - 500px);
+  width: 1000px;
+  height: 548px;
+}
+.harits {
   position: absolute;
   margin: 0 !important;
   top: 33px;
@@ -110,18 +108,18 @@
   line-height: 31px;
   z-index: 0;
 }
-.register6 {
+.register1 {
   margin: 0 !important;
-  left: 1072px;
+  right: 191px;
   justify-content: center;
   width: 177px;
   height: 96px;
   flex-shrink: 0;
   z-index: 1;
 }
-.dashboard2,
+.dashboard,
 .login4,
-.register6 {
+.register1 {
   position: absolute;
   top: 0;
   display: flex;
@@ -129,7 +127,7 @@
 }
 .login4 {
   margin: 0 !important;
-  left: 1263px;
+  right: 0;
   font-weight: 500;
   justify-content: center;
   width: 177px;
@@ -137,19 +135,19 @@
   flex-shrink: 0;
   z-index: 2;
 }
-.dashboard2 {
+.dashboard {
   left: 0;
   background-color: var(--color-darkslategray);
-  width: 1440px;
+  width: 1920px;
   flex-direction: row;
   justify-content: space-between;
   font-size: var(--font-size-7xl);
 }
-.login1 {
+.login {
   position: relative;
   background-color: var(--color-gray-200);
   width: 100%;
-  height: 1024px;
+  height: 1200px;
   overflow: hidden;
   text-align: center;
   font-size: var(--font-size-5xl);

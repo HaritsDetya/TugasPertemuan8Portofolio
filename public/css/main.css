@@ -13,6 +13,7 @@ body {
   --font-size-21xl: 40px;
   --font-size-5xl: 24px;
   --font-size-11xl: 30px;
+  --font-size-51xl: 70px;
   --font-size-45xl: 64px;
   --font-size-17xl: 36px;
 
@@ -23,6 +24,7 @@ body {
   --color-white: #fff;
   --color-teal-100: #008170;
   --color-teal-200: #005b41;
+  --color-teal-300: rgba(0, 129, 112, 0);
   --color-silver: #bfbfbf;
 
   /* Gaps */
@@ -33,4 +35,5 @@ body {
   --br-11xl: 30px;
   --br-3xs: 10px;
   --br-xl: 20px;
+  --br-8xs: 5px;
 }
